@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginProfile</string>
+    <string name="email">SharedPreference</string>
+
+</resources>
