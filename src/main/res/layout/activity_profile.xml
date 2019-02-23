@@ -61,4 +61,12 @@
         android:layout_below="@id/imageButton1"
         />
 
+    <Button
+        android:id="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to chat"
+        android:layout_below="@id/textView5"
+        />
+
 </RelativeLayout>

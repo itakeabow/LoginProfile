@@ -6,23 +6,34 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class ProfileActivity extends AppCompatActivity {
 
-     ImageButton mImageButton;
+    ImageButton mImageButton;
+    Button mChatRoomButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         mImageButton = findViewById(R.id.imageButton1);
+        mChatRoomButton = findViewById(R.id.button1);
 
         mImageButton.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 dispatchTakePictureIntent();
+
+            }
+        });
+
+        mChatRoomButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chatRoomIntent = new Intent (ProfileActivity.this, ChatRoomActivity.class);
+                ProfileActivity.this.startActivity(chatRoomIntent);
 
             }
         });
