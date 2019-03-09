@@ -37,7 +37,6 @@ public class LoginActivity extends AppCompatActivity {
                 Intent loginIntent = new Intent (LoginActivity.this, ProfileActivity.class);
                 LoginActivity.this.startActivity(loginIntent);
 
-
                 String email = etEmail.getText().toString();
                 mEditor.putString(getString(R.string.email),email);
                 mEditor.commit();
@@ -45,10 +44,10 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-
-
     private void checkSharedPreferences(){
     String email = mPreference.getString(getString(R.string.email),"");
         etEmail.setText(email);
     }
+
+
     }

@@ -17,7 +17,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="send"/>
+        android:text="@string/buttonSend"/>
 
 
     <Button
@@ -26,8 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button1"
         android:layout_alignParentRight="true"
-        android:text="Receive"/>
-
+        android:text="@string/buttonReceive"/>
 
     <EditText
         android:id="@id/editText1"

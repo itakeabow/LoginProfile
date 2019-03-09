@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YourProfile">Votre profil</string>
+    <string name="buttonSend">Envoyer</string>
+    <string name="buttonReceive">Recevoir</string>
+    <string name = "goToChat">aller discuter</string>
+
+</resources>

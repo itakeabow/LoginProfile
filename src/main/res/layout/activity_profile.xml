@@ -9,7 +9,7 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Profile"/>
+        android:text="@string/YourProfile"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -65,7 +65,7 @@
         android:id="@id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="go to chat"
+        android:text="@string/goToChat"
         android:layout_below="@id/textView5"
         />
 

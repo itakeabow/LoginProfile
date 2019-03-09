@@ -38,6 +38,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
+
         Message message = getMessage(position);
         View row = convertView;
         LayoutInflater inflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -47,9 +48,13 @@ public class MessageAdapter extends ArrayAdapter<Message> {
         }else {
             row = inflater.inflate(R.layout.m1, parent, false);
         }
+
         messageText = row.findViewById(R.id.messages);
         messageText.setText(message.message);
         return row;
+
+
+
     }
 
 
