@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 public class ChatRoomActivity extends Activity {
 
+
     private ListView listView;
     private Button send,receive;
     private EditText editText;
@@ -82,7 +83,7 @@ public class ChatRoomActivity extends Activity {
 
     private boolean messageReceive(){
         adapter.add(new Message(editText.getText().toString(), !isSend));
-        String entry1 =editText.getText().toString();
+        String entry1 = editText.getText().toString();
         AddData("Received:" + " " + entry1);
         editText.setText("");
         return true;

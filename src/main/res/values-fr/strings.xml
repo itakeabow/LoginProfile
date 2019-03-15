@@ -4,5 +4,6 @@
     <string name="buttonSend">Envoyer</string>
     <string name="buttonReceive">Recevoir</string>
     <string name = "goToChat">aller discuter</string>
+    <string name="goToToolbar">aller toolbar</string>
 
 </resources>

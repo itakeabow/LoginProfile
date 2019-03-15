@@ -3,6 +3,7 @@
     <string name="email">SharedPreference</string>
     <string name="YourProfile">YourProfile</string>
     <string name="buttonSend">Send</string>
-    <string name = "buttonReceive">Receive</string>
-    <string name = "goToChat">go to chat</string>
-</resources>
+    <string name="buttonReceive">Receive</string>
+    <string name="goToChat">go to chat</string>
+    <string name="goToToolbar">go to toolbar</string>
+    </resources>

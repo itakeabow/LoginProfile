@@ -8,11 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toolbar;
 
 public class ProfileActivity extends AppCompatActivity {
 
     ImageButton mImageButton;
-    Button mChatRoomButton;
+    Button mChatRoomButton, mToolbarButton;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         mImageButton = findViewById(R.id.imageButton1);
         mChatRoomButton = findViewById(R.id.button1);
+        mToolbarButton = findViewById(R.id.button2);
 
         mImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +40,17 @@ public class ProfileActivity extends AppCompatActivity {
 
             }
         });
+
+        mToolbarButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toolbarIntent = new Intent(ProfileActivity.this, TestToolbar.class);
+                ProfileActivity.this.startActivity(toolbarIntent);
+
+            }
+
+        });
+
      }
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
