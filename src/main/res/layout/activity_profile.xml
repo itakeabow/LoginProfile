@@ -63,7 +63,7 @@
         />
 
     <Button
-        android:id="@id/button1"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/goToChat"
@@ -71,12 +71,20 @@
         />
 
     <Button
-        android:id="@id/button2"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/goToToolbar"
         android:layout_below="@id/button1"
         />
+
+    <Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Weather forecast"
+    android:layout_below="@id/button2"
+    />
 
 
 </RelativeLayout>

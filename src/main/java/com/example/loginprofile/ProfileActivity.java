@@ -13,7 +13,7 @@ import android.widget.Toolbar;
 public class ProfileActivity extends AppCompatActivity {
 
     ImageButton mImageButton;
-    Button mChatRoomButton, mToolbarButton;
+    Button mChatRoomButton, mToolbarButton, mWeatherButton;
     Toolbar toolbar;
 
     @Override
@@ -23,6 +23,7 @@ public class ProfileActivity extends AppCompatActivity {
         mImageButton = findViewById(R.id.imageButton1);
         mChatRoomButton = findViewById(R.id.button1);
         mToolbarButton = findViewById(R.id.button2);
+        mWeatherButton = findViewById(R.id.button3);
 
         mImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,10 +47,18 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent toolbarIntent = new Intent(ProfileActivity.this, TestToolbar.class);
                 ProfileActivity.this.startActivity(toolbarIntent);
-
             }
-
         });
+
+        mWeatherButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent toolbarIntent = new Intent(ProfileActivity.this, WeatherForecast.class);
+                ProfileActivity.this.startActivity(toolbarIntent);
+            }
+        });
+
+
 
      }
 

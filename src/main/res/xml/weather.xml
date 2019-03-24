@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<current>
+    <city id="6094817" name="Ottawa">
+        <coord lon="-75.69" lat="45.42"/>
+        <country>CA</country>
+        <sun rise="2019-03-17T11:12:02" set="2019-03-17T23:10:21"/>
+    </city>
+    <temperature value="-5.95" min="-7.22" max="-5" unit="metric"/>
+    <humidity value="57" unit="%"/>
+    <pressure value="1021" unit="hPa"/>
+    <wind>
+        <speed value="3.6" name="Gentle Breeze"/>
+        <gusts/>
+        <direction value="280" code="W" name="West"/>
+    </wind>
+    <clouds value="20" name="few clouds"/>
+    <visibility value="24140"/>
+    <precipitation mode="no"/>
+    <weather number="801" value="few clouds" icon="02n"/>
+    <lastupdate value="2019-03-18T02:53:20"/>
+</current>
