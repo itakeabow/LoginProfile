@@ -6,4 +6,7 @@
     <string name="buttonReceive">Receive</string>
     <string name="goToChat">go to chat</string>
     <string name="goToToolbar">go to toolbar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

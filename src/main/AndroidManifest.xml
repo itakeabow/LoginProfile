@@ -18,6 +18,7 @@
         <activity android:name=".WeatherForecast"></activity>
         <activity android:name=".TestToolbar" />
         <activity android:name=".ChatRoomActivity" />
+        <activity android:name=".ChatRoomActivity1" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
